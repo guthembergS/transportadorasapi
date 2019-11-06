@@ -19,15 +19,15 @@ public class TransportadoraServiceImpl implements TransportadoraService {
 	private TransportadoraDAO transportadoraDAO;
 	
 	@Override
+	@Transactional
 	public long saveTransportadora(Transportadora transportadora) {
-		// TODO Auto-generated method stub
-		return 0;
+		return transportadoraDAO.saveTransportadora(transportadora);
 	}
 
 	@Override
+	@Transactional
 	public Transportadora getTransportadora(long idTransportadora) {
-		// TODO Auto-generated method stub
-		return null;
+		return transportadoraDAO.getTransportadora(idTransportadora);
 	}
 
 	@Override
@@ -37,15 +37,16 @@ public class TransportadoraServiceImpl implements TransportadoraService {
 	}
 
 	@Override
+	@Transactional
 	public void updateTransportadora(Long idTransportadora, Transportadora transportadora) {
-		// TODO Auto-generated method stub
+		transportadoraDAO.updateTransportadora(idTransportadora, transportadora);
 		
 	}
 
 	@Override
+	@Transactional
 	public void deleteTransportadora(Long idTransportadora) {
-		// TODO Auto-generated method stub
-		
+		transportadoraDAO.deleteTransportadora(idTransportadora);
 	}
 
 }
