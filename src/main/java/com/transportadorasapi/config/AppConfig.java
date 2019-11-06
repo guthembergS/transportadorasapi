@@ -22,7 +22,8 @@ import static org.hibernate.cfg.Environment.*;
 @EnableTransactionManagement
 @ComponentScans(value = {
 	@ComponentScan("com.transportadorasapi.dao"),
-	@ComponentScan("com.transportadorasapi.services")
+	@ComponentScan("com.transportadorasapi.service"),
+	@ComponentScan("com.transportadorasapi.controller")
 	})
 public class AppConfig {
 
