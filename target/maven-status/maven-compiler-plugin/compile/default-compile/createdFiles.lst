@@ -1,0 +1,4 @@
+com/transportadorasapi/config/AppConfig.class
+com/transportadorasapi/config/MyWebAppInitializer.class
+com/transportadorasapi/model/Transportadora.class
+com/transportadorasapi/config/WebConfig.class
