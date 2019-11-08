@@ -13,5 +13,5 @@
 Para funcionalidade total do projeto é preciso que sejam executados alguns scripts diante as necessidades do banco de dados.
 Realizar os comando no WorkBench:
 Criar Schema no MySql:
-  create database transportadorasdb;
-  use transportadorasdb;
+  [create database transportadorasdb;]
+  [use transportadorasdb;]
